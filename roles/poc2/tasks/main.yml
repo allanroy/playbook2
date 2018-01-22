@@ -1,0 +1,3 @@
+---
+  - name: Create file on POC2.
+    file: path=/root/{{ file1 }} state=touch owner=root group=root mode=0551

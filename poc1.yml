@@ -1,0 +1,5 @@
+---
+- hosts: 10.193.176.5
+  become: true
+  roles:
+    - poc1
